@@ -11,16 +11,18 @@ public class Main {
 
     // class of Main.Product
     static class  Product{
+
+
         public int product(int x, int y) {
-            int totalOfAllProduct = x + y;
+            int totalOfAllProduct = x * y;
             return totalOfAllProduct;
         }
         public int product(int x, int y, int z) {
-            int totalOfAllProduct = x + y + z;
+            int totalOfAllProduct = x * y * z;
             return totalOfAllProduct;
         }
         public double product(double x, double y) {
-            double totalOfAllProduct = x + y;
+            double totalOfAllProduct = x * y;
             return totalOfAllProduct;
         }
 
